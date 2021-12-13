@@ -1,14 +1,11 @@
 ﻿#include <iostream>
-#include"c_ChineseCoin.h"
-#include"c_Circle.h"
-#include"c_Line.h"
-#include"c_Rectangle.h"
-#include"c_Square.h"
-#include"c_Washing.h"
+#include"Header.h"
 
 int main()
 {
+    c_Circle circle(20);
     c_Square square(10);
-    c_Line line(2);
-    (square - line).Show();
+    c_Line line(10);
+    (circle+square).Show();
+    //(square + line).Show();
 }

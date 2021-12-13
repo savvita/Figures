@@ -154,6 +154,7 @@
     <ClInclude Include="c_Rectangle.h" />
     <ClInclude Include="c_Square.h" />
     <ClInclude Include="c_Washing.h" />
+    <ClInclude Include="Header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

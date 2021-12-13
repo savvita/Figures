@@ -22,4 +22,6 @@ public:
 	}
 
 	void Show() const;
+
+	c_ChineseCoin operator+(const c_Square& square) const;
 };

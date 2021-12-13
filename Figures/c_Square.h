@@ -1,6 +1,4 @@
 #pragma once
-#include"c_Rectangle.h"
-#include"c_Line.h"
 
 class c_Square
 {
@@ -26,7 +24,7 @@ public:
 	void Show() const;
 
 	//operators
-	c_Rectangle operator+(const c_Line& line) const;
+	//c_Rectangle operator+(const c_Line& line) const;
 
-	c_Rectangle operator-(const c_Line& line) const;
+	//c_Rectangle operator-(const c_Line& line) const;
 };
