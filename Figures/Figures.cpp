@@ -6,6 +6,6 @@ int main()
     c_Circle circle(20);
     c_Square square(10);
     c_Line line(10);
-    (circle+square).Show();
+    ((c_Washing*)(circle+square))->Show();
     //(square + line).Show();
 }

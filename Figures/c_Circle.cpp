@@ -18,7 +18,17 @@ void c_Circle::Show() const
 	cout << "Circle: radius = " << this->radius << "\n";
 }
 
-c_ChineseCoin c_Circle::operator+(const c_Square& square) const
+void* c_Circle::operator+(const c_Square& square) const
 {
-	return c_ChineseCoin(this->radius, square.getSide());
+	if (this->radius > square.getSide())
+	{
+		return new c_ChineseCoin(this->radius, square.getSide());
+	}
+
+	return new c_Washing(this->radius, square.getSide());
 }
+
+//c_ChineseCoin c_Circle::operator+(const c_Square& square) const
+//{
+//	return c_ChineseCoin(this->radius, square.getSide());
+//}
