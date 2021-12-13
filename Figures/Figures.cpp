@@ -1,7 +1,14 @@
 ﻿#include <iostream>
-#include"Figures.h"
+#include"c_ChineseCoin.h"
+#include"c_Circle.h"
+#include"c_Line.h"
+#include"c_Rectangle.h"
+#include"c_Square.h"
+#include"c_Washing.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    c_Square square(10);
+    c_Line line(22);
+    (square + line).Show();
 }

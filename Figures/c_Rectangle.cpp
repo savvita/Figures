@@ -7,7 +7,7 @@ c_Rectangle::c_Rectangle()
 	this->width = this->height = 0;
 }
 
-c_Rectangle::c_Rectangle(int width, int heigth)
+c_Rectangle::c_Rectangle(int width, int height)
 {
 	this->width = width;
 	this->height = height;

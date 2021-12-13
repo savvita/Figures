@@ -8,7 +8,7 @@ private:
 
 public:
 	c_Rectangle();
-	c_Rectangle(int width, int heigth);
+	c_Rectangle(int width, int height);
 
 	//gets
 	inline int getWidth()const
