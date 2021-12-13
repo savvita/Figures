@@ -22,3 +22,10 @@ c_Rectangle c_Square::operator+(const c_Line& line) const
 	return c_Rectangle(this->side + line.getLength(), this->side);
 }
 
+c_Rectangle c_Square::operator-(const c_Line& line) const
+{
+	if ((this->side - line.getLength()) > 0)
+		return c_Rectangle((this->side - line.getLength()), this->side);
+	return c_Rectangle();
+}
+

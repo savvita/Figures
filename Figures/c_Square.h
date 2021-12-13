@@ -26,6 +26,7 @@ public:
 	void Show() const;
 
 	//operators
-
 	c_Rectangle operator+(const c_Line& line) const;
+
+	c_Rectangle operator-(const c_Line& line) const;
 };

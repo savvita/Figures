@@ -9,6 +9,6 @@
 int main()
 {
     c_Square square(10);
-    c_Line line(22);
-    (square + line).Show();
+    c_Line line(2);
+    (square - line).Show();
 }
