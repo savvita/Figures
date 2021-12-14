@@ -25,5 +25,7 @@ public:
 
 	//c_ChineseCoin operator+(const c_Square& square) const;
 
-	void* operator+(const c_Square& square)const;
+	//void* operator+(const c_Square& square)const;
+
+	c_SquareCircle operator+(const c_Square& square) const;
 };

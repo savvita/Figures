@@ -144,6 +144,7 @@
     <ClCompile Include="c_Line.cpp" />
     <ClCompile Include="c_Rectangle.cpp" />
     <ClCompile Include="c_Square.cpp" />
+    <ClCompile Include="c_SquareCircle.cpp" />
     <ClCompile Include="c_Washing.cpp" />
     <ClCompile Include="Figures.cpp" />
   </ItemGroup>
@@ -153,6 +154,7 @@
     <ClInclude Include="c_Line.h" />
     <ClInclude Include="c_Rectangle.h" />
     <ClInclude Include="c_Square.h" />
+    <ClInclude Include="c_SquareCircle.h" />
     <ClInclude Include="c_Washing.h" />
     <ClInclude Include="Header.h" />
   </ItemGroup>
