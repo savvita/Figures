@@ -1,4 +1,5 @@
 #pragma once
+#include"Header.h"
 
 class c_Square
 {
@@ -21,10 +22,10 @@ public:
 		this->side = side;
 	}
 
-	void Show() const;
+	void show() const;
 
 	//operators
-	//c_Rectangle operator+(const c_Line& line) const;
+	c_Rectangle operator+(const c_Line& line) const;
 
-	//c_Rectangle operator-(const c_Line& line) const;
+	c_Rectangle operator-(const c_Line& line) const;
 };

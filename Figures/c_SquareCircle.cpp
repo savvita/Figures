@@ -19,7 +19,7 @@ c_SquareCircle::c_SquareCircle(int radius, int side)
 		this->isChineseCoin = false;
 }
 
-void c_SquareCircle::Show() const
+void c_SquareCircle::show() const
 {
 	if(this->isChineseCoin)
 	{

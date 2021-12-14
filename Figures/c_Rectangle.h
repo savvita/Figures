@@ -1,4 +1,5 @@
 #pragma once
+#include"Header.h"
 
 class c_Rectangle
 {
@@ -32,6 +33,6 @@ public:
 		this->height = height;
 	}
 
-	void Show() const;
+	void show() const;
 };
 

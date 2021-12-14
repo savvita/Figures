@@ -1,4 +1,5 @@
 #pragma once
+#include"Header.h"
 
 class c_SquareCircle
 {
@@ -39,7 +40,7 @@ public:
 		this->side = side;
 	}
 
-	void Show() const;
+	void show() const;
 
 };
 

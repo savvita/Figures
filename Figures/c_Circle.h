@@ -1,4 +1,5 @@
 #pragma once
+#include"Header.h"
 
 class c_Circle
 {
@@ -21,11 +22,12 @@ public:
 		this->radius = radius;
 	}
 
-	void Show() const;
+	void show() const;
 
-	//c_ChineseCoin operator+(const c_Square& square) const;
+	//operators
+	c_ChineseCoin operator+(const c_Square& square) const;
 
-	//void* operator+(const c_Square& square)const;
+	c_Washing operator+(const c_Square* square) const;
 
-	c_SquareCircle operator+(const c_Square& square) const;
+	//c_SquareCircle operator+(const c_Square& square) const;
 };

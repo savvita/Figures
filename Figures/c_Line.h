@@ -1,4 +1,5 @@
 #pragma once
+#include"Header.h"
 
 class c_Line
 {
@@ -21,6 +22,6 @@ public:
 		this->length = length;
 	}
 
-	void Show() const;
+	void show() const;
 };
 

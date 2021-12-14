@@ -13,7 +13,7 @@ c_Rectangle::c_Rectangle(int width, int height)
 	this->height = height;
 }
 
-void c_Rectangle::Show() const
+void c_Rectangle::show() const
 {
 	cout << "Rectangle: width = " << this->width << ", heigth = " << this->height << "\n";
 }
