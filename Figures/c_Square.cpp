@@ -29,3 +29,14 @@ c_Rectangle c_Square::operator-(const c_Line& line) const
 	return c_Rectangle();
 }
 
+std::ostream& operator<<(std::ostream& out, const c_Square& square)
+{
+	out << "Square: side = " << square.side << "\n";
+	return out;
+}
+
+std::istream& operator>>(std::istream& in, c_Square& square)
+{
+	in >> square.side;
+	return in;
+}

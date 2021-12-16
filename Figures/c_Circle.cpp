@@ -32,3 +32,15 @@ c_Washing c_Circle::operator+(const c_Square* square) const
 {
 	return c_Washing(this->radius, square->getSide());
 }
+
+std::ostream& operator<<(std::ostream& out, const c_Circle& circle) 
+{
+	out << "Circle: radius = " << circle.radius << "\n";
+	return out;
+}
+
+std::istream& operator>>(std::istream& in, c_Circle& circle)
+{
+	in >> circle.radius;
+	return in;
+}

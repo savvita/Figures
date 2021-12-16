@@ -1,5 +1,6 @@
 #pragma once
 #include"Header.h"
+#include<iostream>
 
 class c_Square
 {
@@ -28,4 +29,8 @@ public:
 	c_Rectangle operator+(const c_Line& line) const;
 
 	c_Rectangle operator-(const c_Line& line) const;
+
+	friend std::ostream& operator<<(std::ostream& out, const c_Square& square);
+
+	friend std::istream& operator>>(std::istream& in, c_Square& square);
 };
